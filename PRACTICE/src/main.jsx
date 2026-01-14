@@ -10,6 +10,10 @@ import State from './State.jsx'
 import Toogle from './Toogle.jsx'
 import Ifelse from './Ifelse.jsx'
 import Wish from './Props.jsx'
+import Checkbox from './Checkbox.jsx'
+import RadioButton from './RadioButton.jsx'
+import Dropdown from './Dropdown.jsx'
+import Loop from './Loops.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -32,7 +36,10 @@ createRoot(document.getElementById('root')).render(
     <Toogle/>
     <Ifelse/>
     <Wish name1="Topivali" name2="Waseem"/>
-    
+    <Checkbox/>   
+    <RadioButton/>
+    <Dropdown/>
+    <Loop/>
     
       
   </StrictMode>
